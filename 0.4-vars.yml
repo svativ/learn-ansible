@@ -2,6 +2,6 @@
   hosts: localhost
   connection: local
   vars:
-    URL: play.google.com
+#    URL: play.google.com
   roles:
     - sample
