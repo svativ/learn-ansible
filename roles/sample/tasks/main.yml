@@ -10,7 +10,7 @@
 #    enabled: yes
 - name: print variable
   ansible.builtin.debug:
-   msg:URL = {{ URl }}
+   msg: URL = {{ URl }}
 
 - name: print variable - task variable defined
   ansible.builtin.debug:
